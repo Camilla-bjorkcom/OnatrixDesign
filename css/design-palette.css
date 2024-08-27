@@ -1,5 +1,7 @@
 .design-palette .container {
+  display: flex;
   gap: 2rem;
-  max-width: 1920px;
   align-items: center;
+  max-width: 100%;
+  justify-content: center;
 }
