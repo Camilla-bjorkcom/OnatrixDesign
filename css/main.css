@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 700;
   text-decoration: none !important;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
 }
 
 h1 {
@@ -84,7 +87,7 @@ h4 {
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h6 {
@@ -101,7 +104,7 @@ h6 {
   -webkit-tap-highlight-color: rbga 0, 0, 0, 0;
 }
 
-html, body, section, div, header, footer, main, aside, nav, blockquote {
+html, body, section, div, header, footer, main, aside, nav, blockquote, p, span {
   margin: 0;
   padding: 0;
 }
