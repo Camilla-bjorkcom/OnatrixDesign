@@ -1,0 +1,5 @@
+.design-palette .container {
+  gap: 2rem;
+  max-width: 1920px;
+  align-items: center;
+}
