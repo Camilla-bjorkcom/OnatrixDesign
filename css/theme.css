@@ -432,7 +432,7 @@ a:hover {
 .bg-secondary .btn-secondary {
   background-color: var(--color-secondary);
   color: var(--color-primary);
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -440,7 +440,7 @@ a:hover {
 .bg-secondary .btn-secondary:hover {
   background-color: var(--color-accent);
   color: var(--color-primary);
-  border-color: var(--color-accent);
+  border-color: var(--color-border-primary);
 }
 .bg-secondary .btn-secondary:hover, .bg-secondary .btn-secondary:focus, .bg-secondary .btn-secondary:active {
   outline: none !important;
@@ -884,7 +884,7 @@ h6 {
 }
 
 .bg-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
   color: var(--color-primary);
 }
 
