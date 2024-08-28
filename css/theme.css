@@ -15,7 +15,7 @@
   --color-border-accent: #d5d1c2;
   --color-border-gray: #e3e3e3;
   --color-border-light: #eeeeee;
-  --color-border-light-tranparent: rgba (255,255,2555, 0.95);
+  --color-border-light-transparent: rgba(195, 190, 190, 0.1);
 }
 
 :root.dark-theme {
@@ -34,7 +34,7 @@
   --color-border-accent: #2a2925;
   --color-border-gray: #474747;
   --color-border-light: #2c2c2c;
-  --color-border-light-tranparent: rgba (23,23,23, 0.95);
+  --color-border-light-transparent: rgba (23,23,23, 0.95);
 }
 
 body {
