@@ -83,3 +83,19 @@
         @include heading-colors($h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color);
     }
 }
+
+@mixin link-colors($link-color, $hover-color){
+    a {
+        color: var($link-color);
+
+        &:hover, &:focus, &:active {
+            color: var($hover-color);
+        }
+    }
+}
+
+@mixin theme-links($bg-color, $link-color, $hover-color){
+    .bg-#{$bg-color}{
+        @include link-colors($link-color, $hover-color);
+    }
+}
