@@ -4,7 +4,7 @@
     .container {
         display: flex;
         justify-content: space-between;
-        
+        padding: 0;
       
 
         .address {
@@ -26,4 +26,21 @@
            } 
         }
     }
+}
+
+.navbar{
+    .container {
+        display: flex; 
+        justify-content: space-between;
+        padding-bottom: 20px;    
+        .menu {
+            @include text;
+            font-weight: 600;
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            
+        }
+    }
+   
 }
