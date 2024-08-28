@@ -23,7 +23,7 @@
 }
 
 .btn-menu {
-    @include button-colors(--color-primary, --color-secondary, --color-accent, --color-primary);
+    @include button-colors(--color-primary, --color-accent, --color-accent, --color-primary);
 }
 
 @include theme-buttons(
@@ -34,7 +34,7 @@
     (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
     (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-primary, --color-accent, --color-accent, --color-primary),
 );
 
 @include theme-buttons(
@@ -67,7 +67,7 @@
     (--color-accent, --color-primary, --color-primary, --color-secondary, --color-border-accent, --color-border-secondary),
     (--color-gray, --color-primary, --color-secondary, --color-primary, --color-light),
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light, --color-border-primary),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-primary, --color-accent, --color-accent, --color-primary, --color-light, --color-border-dark),
 );
 
 
@@ -79,7 +79,7 @@
     (--color-accent, --color-primary, --color-primary, --color-light),
     (--color-gray, --color-primary, --color-primary, --color-light, --color-light),
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light, --color-border-secondary),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-primary, --color-gray, --color-gray, --color-primary, --color-light, --color-border-primary),
 );
 
 
@@ -90,6 +90,6 @@
     (--color-secondary, --color-primary, --color-light, --color-primary, --color-secondary, --color-border-secondary),
     (--color-accent, --color-primary, --color-primary, --color-light),
     (--color-gray, --color-primary, --color-primary, --color-light, --color-primary),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-light, --color-border-secondary),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-light, --color-primary, --color-secondary, --color-gray, --color-accent, --color-border-secondary),
+    (--color-primary, --color-gray, --color-secondary, --color-primary, --color-light, --color-border-primary),
 );

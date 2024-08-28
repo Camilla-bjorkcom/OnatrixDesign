@@ -278,7 +278,7 @@ a:hover {
 
 .btn-menu {
   background-color: var(--color-primary);
-  color: var(--color-secondary);
+  color: var(--color-accent);
   border-color: var(--color-primary);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
@@ -390,9 +390,9 @@ a:hover {
   outline: none !important;
 }
 .bg-dark .btn-menu {
-  background-color: var(--color-light);
-  color: var(--color-primary);
-  border-color: var(--color-light);
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+  border-color: var(--color-primary);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -729,8 +729,8 @@ a:hover {
   outline: none !important;
 }
 .bg-accent .btn-menu {
-  background-color: var(--color-light);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-accent);
   border-color: var(--color-light);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
@@ -739,7 +739,7 @@ a:hover {
 .bg-accent .btn-menu:hover {
   background-color: var(--color-accent);
   color: var(--color-primary);
-  border-color: var(--color-accent);
+  border-color: var(--color-border-dark);
 }
 .bg-accent .btn-menu:hover, .bg-accent .btn-menu:focus, .bg-accent .btn-menu:active {
   outline: none !important;
@@ -842,17 +842,17 @@ a:hover {
   outline: none !important;
 }
 .bg-gray .btn-menu {
-  background-color: var(--color-light);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-gray);
   border-color: var(--color-light);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-gray .btn-menu:hover {
-  background-color: var(--color-accent);
+  background-color: var(--color-gray);
   color: var(--color-primary);
-  border-color: var(--color-accent);
+  border-color: var(--color-border-primary);
 }
 .bg-gray .btn-menu:hover, .bg-gray .btn-menu:focus, .bg-gray .btn-menu:active {
   outline: none !important;
@@ -941,31 +941,31 @@ a:hover {
 .bg-light .btn-light {
   background-color: var(--color-light);
   color: var(--color-primary);
-  border-color: var(--color-light);
+  border-color: var(--color-accent);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-light .btn-light:hover {
-  background-color: var(--color-accent);
-  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  color: var(--color-gray);
   border-color: var(--color-border-secondary);
 }
 .bg-light .btn-light:hover, .bg-light .btn-light:focus, .bg-light .btn-light:active {
   outline: none !important;
 }
 .bg-light .btn-menu {
-  background-color: var(--color-light);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-gray);
   border-color: var(--color-light);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-light .btn-menu:hover {
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary);
   color: var(--color-primary);
-  border-color: var(--color-accent);
+  border-color: var(--color-border-primary);
 }
 .bg-light .btn-menu:hover, .bg-light .btn-menu:focus, .bg-light .btn-menu:active {
   outline: none !important;
