@@ -19,7 +19,7 @@
 
 
 @mixin theme-buttons($bg-color, $btn-dark-colors, $btn-primary-colors, $btn-secondary-colors, $btn-accent-colors, $btn-gray-colors, $btn-light-colors, $btn-menu-colors) {
-    .bg-#{bg-color}{
+    .bg-#{$bg-color}{
         .btn-dark {
             @include button-colors($btn-dark-colors...);
         }
