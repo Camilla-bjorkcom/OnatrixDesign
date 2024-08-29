@@ -5,7 +5,7 @@
   --color-primary-light: #6d7573;
   --color-primary-dark: #2f3331;
   --color-secondary: #d9c3a9;
-  --color-accent: #f2eddc;
+  --color-accent: #F2EDDC;
   --color-gray: #f7f7f7;
   --color-light: #ffffff;
   --color-border-dark: #333333;
@@ -118,7 +118,7 @@ a:hover, a:focus, a:active {
 
 .btn-primary {
   background-color: var(--color-primary);
-  color: var(--color-secondary);
+  color: var(--color-accent);
   border-color: var(--color-primary);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;

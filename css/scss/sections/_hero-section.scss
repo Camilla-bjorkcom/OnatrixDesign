@@ -1,0 +1,52 @@
+#hero-slider {
+    position: relative;
+    width: 100vw;
+    max-width: 1920px;
+    height: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+
+    .background {
+        position: absolute;
+        background-image: url(../../../images/Hero.png);   
+        background-size: cover;
+        background-position: 60%;
+        z-index: 1;
+        width: 100vw;
+        max-width: 1920px;
+        height: 400px;
+        @include shadow-l;
+      
+        @include desktop{
+            height: 100%;
+        }
+    }
+
+    .container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+       z-index: 2;
+       margin-top: 70px;
+       width: 100%;
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 1.5rem;
+            margin-top:50px;
+            .headline {
+                margin: 0;
+                width: 90%;
+            }
+            .ingress {
+                width: 90%;
+            }
+            .btn {
+
+            }
+        }
+    }
+
+}
