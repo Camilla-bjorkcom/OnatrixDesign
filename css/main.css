@@ -291,3 +291,49 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+#why-choose-us .container {
+  position: relative;
+  padding: 100px 0px 0px 0px;
+}
+#why-choose-us .container .background-img {
+  width: 100%;
+}
+#why-choose-us .container .background-img img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 72px;
+}
+#why-choose-us .container .headline {
+  width: 50%;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+#why-choose-us .container .headline .primary {
+  margin: 0;
+}
+#why-choose-us .container .headline .secondary {
+  color: var(--color-secondary);
+}
+#why-choose-us .container .content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+#why-choose-us .container .content .text {
+  margin-bottom: 2rem;
+}
+#why-choose-us .container .content .button {
+  margin-bottom: 3rem;
+}
+#why-choose-us .container .team-img {
+  width: 100%;
+}
+#why-choose-us .container .team-img img {
+  width: 100%;
+  margin: 0 auto;
+}
