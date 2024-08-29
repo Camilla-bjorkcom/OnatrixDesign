@@ -224,6 +224,7 @@ footer {
 #hero-slider .container .hero-content .ingress {
   width: 90%;
 }
+
 #about-us .container {
   margin-top: 70px;
   margin-bottom: 70px;
@@ -239,4 +240,18 @@ footer {
 }
 #about-us .container .content .signature-container {
   margin-top: 1rem;
+}
+
+#our-services {
+  padding-top: 100px;
+}
+#our-services .container .headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#our-services .container .headline h2 {
+  width: 50%;
+  text-align: center;
 }
