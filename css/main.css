@@ -411,3 +411,31 @@ footer {
   position: absolute;
   top: 50px;
 }
+
+#our-projects {
+  margin-top: 500px;
+}
+#our-projects .container .headline h2 {
+  font-weight: 700;
+}
+#our-projects .projects {
+  display: flex;
+  justify-content: center;
+}
+#our-projects .projects .card-project {
+  position: relative;
+}
+#our-projects .projects .card-project .heading {
+  background-color: var(--color-primary-light-transparent);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+#our-projects .projects .card-project .heading h5 {
+  color: var(--color-light);
+  font-weight: 400;
+}
+#our-projects .projects .card-project .heading p {
+  color: var(--color-light);
+}

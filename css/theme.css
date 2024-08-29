@@ -3,6 +3,7 @@
   --color-dark: #171717;
   --color-primary: #4F5955;
   --color-primary-light: #6d7573;
+  --color-primary-light-transparent: rgba(49, 52, 43, 0.5);
   --color-primary-dark: #2f3331;
   --color-secondary: #d9c3a9;
   --color-accent: #F2EDDC;
