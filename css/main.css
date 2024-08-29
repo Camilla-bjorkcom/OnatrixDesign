@@ -224,3 +224,19 @@ footer {
 #hero-slider .container .hero-content .ingress {
   width: 90%;
 }
+#about-us .container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+}
+#about-us .container .content {
+  width: 60%;
+}
+#about-us .container .content .quote {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+#about-us .container .content .signature-container {
+  margin-top: 1rem;
+}
