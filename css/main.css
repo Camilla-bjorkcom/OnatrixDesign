@@ -439,3 +439,12 @@ footer {
 #our-projects .projects .card-project .heading p {
   color: var(--color-light);
 }
+
+#partners .container {
+  padding: 80px 0px 80px 0px;
+}
+#partners .container .partners {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
