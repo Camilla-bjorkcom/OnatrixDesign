@@ -148,6 +148,14 @@ body {
 
 footer {
   background-color: black;
+  padding: 40px;
+}
+footer .container {
+  display: flex;
+  gap: 0.5rem;
+}
+footer .container .theme {
+  color: var(--color-secondary);
 }
 
 .topbar {

@@ -1,3 +1,11 @@
 footer {
     background-color: black;
+    padding: 40px;
+    .container {
+        display: flex;
+        gap: 0.5rem;
+        .theme {
+            color: var(--color-secondary);
+        }
+    }   
 }
