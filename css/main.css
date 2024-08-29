@@ -74,7 +74,7 @@ a[target=_blank]::after {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none !important;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -244,6 +244,7 @@ footer {
 
 #our-services {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 #our-services .container .headline {
   display: flex;
@@ -254,4 +255,39 @@ footer {
 #our-services .container .headline h2 {
   width: 50%;
   text-align: center;
+}
+#our-services .container .grid-services {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  #our-services .container .grid-services {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1400px) {
+  #our-services .container .grid-services {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+#our-services .container .grid-services .service-card {
+  background-color: white;
+  box-shadow: 0px 4px 9px -1px rgba(52, 50, 62, 0.03), 0px 4.4px 20px -1px rgba(222, 221, 226, 0.05);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#our-services .container .grid-services .service-card .heading {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+#our-services .container .grid-services .service-card .img-service img {
+  width: 100%;
+}
+#our-services .container .grid-services .service-card .text {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
