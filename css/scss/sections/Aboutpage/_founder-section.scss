@@ -1,0 +1,19 @@
+#founder-section {
+    .container {
+        margin-top: 100px;
+        margin-bottom: 150px;
+        display: flex;
+        gap: 4rem;
+
+        .left-content {
+            .ceo-text  {
+                font-style: italic;
+            }
+        }
+        .text {
+            margin-bottom: 1rem;
+        }
+    }
+
+    
+}
