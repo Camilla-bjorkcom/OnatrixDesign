@@ -456,3 +456,40 @@ footer .container .theme {
   justify-content: center;
   gap: 5rem;
 }
+
+#about-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 260px;
+  box-shadow: 0px 4px 13px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
+  background-color: var(--color-gray);
+  position: -1;
+}
+#about-header .background-img {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#about-header .background-img img {
+  height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#about-header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+#about-header .container .heading h2 {
+  font-weight: 700;
+}
+#about-header .container .heading .bread-crumbs a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}

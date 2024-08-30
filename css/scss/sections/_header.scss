@@ -1,0 +1,42 @@
+#about-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 260px; //hur ska denna höjd vara i relativt värde?
+    @include shadow-l;
+    background-color: var(--color-gray);
+    position: -1;
+
+    .background-img {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: fit-content;
+
+        img {
+            height: 100%;
+            width: fit-content;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+
+        .heading {
+            h2 {
+                font-weight: 700;
+            }
+            .bread-crumbs {
+               a {
+                margin-right: 1rem;
+                margin-left: 1rem; //??
+               }
+            }
+        }
+    }
+}
