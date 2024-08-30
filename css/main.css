@@ -522,3 +522,47 @@ footer .container .theme {
 #founder-section .container .text {
   margin-bottom: 1.5rem;
 }
+
+#reviews-section {
+  background-color: var(--color-gray);
+  max-width: 1920px;
+  margin: 0 auto;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+@media (min-width: 768px) {
+  #reviews-section {
+    display: flex;
+  }
+}
+#reviews-section .left-content {
+  padding: 50px;
+  margin-left: 50px;
+}
+@media (min-width: 1400px) {
+  #reviews-section .left-content {
+    padding: 100px;
+    margin-left: 100px;
+  }
+}
+#reviews-section .left-content h2 {
+  font-weight: 700;
+  width: 70%;
+}
+#reviews-section .left-content .stars {
+  margin-bottom: 20px;
+}
+#reviews-section .left-content .big-name {
+  font-weight: 500;
+}
+#reviews-section .image-container {
+  width: 100%;
+}
+#reviews-section .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 40%;
+     object-position: 40%;
+}
