@@ -566,3 +566,44 @@ footer .container .theme {
   -o-object-position: 40%;
      object-position: 40%;
 }
+
+#team-section {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#team-section .container .heading {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+#team-section .container .heading h2 {
+  font-weight: 700;
+}
+#team-section .container .image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  row-gap: 2rem;
+}
+#team-section .container .image-grid .upper-row {
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#team-section .container .image-grid .lower-row {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#team-section .container .image-grid .team-card {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+#team-section .container .image-grid .team-card .image-container {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#team-section .container .image-grid .team-card .name-title {
+  padding: 20px;
+}

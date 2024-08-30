@@ -1,0 +1,48 @@
+#team-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    .container {
+        .heading {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+
+            h2 {
+                font-weight: 700;
+            }
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+            row-gap: 2rem;
+            
+            .upper-row {
+                grid-column: span 3; // Span 3 kolumner på övre raden
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                 
+            }
+              
+              .lower-row {
+                grid-column: span 4; // Span 4 kolumner på nedre raden
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);           
+            }
+
+              .team-card {
+                width: fit-content;
+                border: 1px solid hsla(0, 0%, 0%, 0.1);
+               
+                .image-container {                  
+                    width: fit-content;
+                }
+                .name-title {
+                    padding: 20px;
+                }
+            
+            }
+              
+        }
+    }
+}
