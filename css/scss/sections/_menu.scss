@@ -30,17 +30,81 @@
 
 .navbar {
     .container {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
         padding-bottom: 20px;
         padding-top: 15px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "logo search mobile" "mobile-menu mobile-menu mobile-menu";
+        width: 100%;
+        row-gap: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+       
+
+        @include tablet {
+            display: flex;
+        }
+
+.logo-img {
+    grid-area: logo;
+    width: fit-content;
+}
+        .btn-menu {
+            display: block;
+            grid-area: mobile;
+            justify-self: center;
+            
+
+            @include tablet {
+                display: none;
+            }
+        }
+
+        .mobile-menu {
+            grid-area: mobile-menu;
+            display: flex;
+            justify-content: center;
+            grid-area: mobile-menu;
+            width: 100%;
+            background-color: var(--color-accent);
+            padding: 35px;
+            border-radius: 5px;
+            text-align: center;
+            
+           
+
+            @include tablet {
+                display: none;
+            }
+
+            ul {
+                text-decoration: none;
+                list-style: none;
+                padding: 0;
+                 li {
+                    margin-top: 1rem;
+                 }
+            }
+        }
 
         .menu {
-            @include text;
-            font-weight: 600;
-            display: flex;
-            width: 50%;
-            justify-content: space-around;      
+            display: none;
+
+            @include tablet {
+                display: block;
+                @include text;
+                font-weight: 600;
+                display: flex;
+                width: 50%;
+                justify-content: space-around;
+            }
+        }
+
+        .search {
+            grid-area: search;
+
+
         }
     }
 
