@@ -365,7 +365,7 @@ footer .container .theme {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  padding: 10px;
 }
 #why-choose-us .container .headline .primary {
   margin: 0;
@@ -374,6 +374,11 @@ footer .container .theme {
 #why-choose-us .container .headline .secondary {
   color: var(--color-secondary);
   text-align: center;
+}
+@media (min-width: 768px) {
+  #why-choose-us .container .headline {
+    margin: 0 auto;
+  }
 }
 #why-choose-us .container .content {
   width: 50%;
