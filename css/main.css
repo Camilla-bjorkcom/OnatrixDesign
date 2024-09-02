@@ -272,37 +272,40 @@ footer .container .theme {
 
 #hero-slider {
   position: relative;
-  width: 100vw;
-  max-width: 1920px;
-  height: 600px;
-  max-height: 600px;
-  margin: 0 auto;
+  display: flex;
 }
-#hero-slider .background {
-  position: absolute;
-  background-image: url(../../../images/Homepage/Hero.png);
-  background-size: cover;
-  background-position: 60%;
-  z-index: 1;
-  width: 100vw;
-  max-width: 1920px;
-  height: 500px;
-  box-shadow: -12px 4px -18px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
+@media (min-width: 768px) {
+  #hero-slider {
+    width: 100vw;
+    max-width: 1920px;
+    height: 600px;
+    max-height: 600px;
+  }
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   #hero-slider .background {
+    position: absolute;
+    background-image: url(../../../images/Homepage/Hero.png);
+    background-size: cover;
+    background-position: 60%;
+    z-index: 1;
+    width: 100vw;
+    max-width: 1920px;
+    box-shadow: -12px 4px -18px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.4px -6px rgba(19, 16, 34, 0.1);
     height: 100%;
   }
 }
 #hero-slider .container {
   display: flex;
-  position: relative;
-  z-index: 2;
+  justify-content: center;
+  text-align: center;
 }
 @media (min-width: 768px) {
   #hero-slider .container {
-    display: flex;
-    justify-content: left;
+    justify-self: end;
+    align-self: center;
+    position: relative;
+    z-index: 2;
   }
 }
 @media (min-width: 1440px) {
@@ -311,18 +314,21 @@ footer .container .theme {
   }
 }
 #hero-slider .container .hero-content {
-  display: flex;
-  flex-direction: column;
   gap: 0.5rem;
   margin-top: 20px;
   width: -moz-fit-content;
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
 }
 @media (min-width: 768px) {
   #hero-slider .container .hero-content {
-    width: 50%;
     margin-top: 50px;
-    gap: 1rem;
+    align-items: baseline;
+    text-align: left;
   }
 }
 @media (min-width: 1440px) {
@@ -334,15 +340,18 @@ footer .container .theme {
   margin: 0;
   width: 90%;
   font-weight: 700;
-  width: 40%;
 }
 @media (min-width: 768px) {
   #hero-slider .container .hero-content .headline {
-    width: 90%;
+    width: 50%;
   }
 }
 #hero-slider .container .hero-content .ingress {
-  width: 90%;
+  width: 70%;
+}
+#hero-slider .container .hero-content .button-container {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 #about-us .container {
