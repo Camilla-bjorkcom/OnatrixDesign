@@ -8,42 +8,68 @@
 
     .background {
         position: absolute;
-        background-image: url(../../../images/Homepage/Hero.png);   
+        background-image: url(../../../images/Homepage/Hero.png);
         background-size: cover;
         background-position: 60%;
         z-index: 1;
         width: 100vw;
         max-width: 1920px;
-        height: 400px;
+        height: 500px;
         @include shadow-l;
-      
-        @include desktop{
+
+        @include desktop {
             height: 100%;
         }
     }
 
     .container {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       position: absolute;
-       z-index: 2;
-       margin-top: 70px;
-       width: 100%;
+        display: flex;
+        position: relative;
+        z-index: 2;
+
+        @include tablet {
+            display: flex;
+            justify-content: left;
+        }
+
+        @include desktop {
+            padding-top: 70px;
+
+        }
+
         .hero-content {
             display: flex;
-            flex-direction: column;
-            width: 50%;
-            gap: 1.5rem;
-            margin-top:50px;
+            flex-direction: column;    
+            gap: 0.5rem;
+            margin-top: 20px;
+            width: fit-content;
+
+            @include tablet {
+                width: 50%;
+                margin-top: 50px;
+                gap: 1rem;
+            }
+
+            @include desktop {
+                gap: 1.5rem;
+            }
+
+
             .headline {
                 margin: 0;
                 width: 90%;
+                font-weight: 700;
+                width: 40%;
+
+                @include tablet {
+                   width: 90%;
+                }
             }
+
             .ingress {
                 width: 90%;
             }
-           
+
         }
     }
 
