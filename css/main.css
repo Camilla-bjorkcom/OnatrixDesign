@@ -607,3 +607,46 @@ footer .container .theme {
 #team-section .container .image-grid .team-card .name-title {
   padding: 20px;
 }
+
+#call-to-action {
+  background-color: var(--color-gray);
+}
+#call-to-action .container {
+  display: flex;
+  padding-top: 35px;
+  align-items: center;
+  gap: 15rem;
+}
+#call-to-action .container .left-content {
+  position: relative;
+}
+#call-to-action .container .left-content .background {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+#call-to-action .container .left-content .portrait {
+  position: relative;
+  z-index: 2;
+}
+#call-to-action .container .right-content .heading h2 {
+  font-weight: 700;
+}
+#call-to-action .container .right-content .text .contact {
+  margin-bottom: 2em;
+}
+#call-to-action .container .right-content .text .contact .contact-type {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+#call-to-action .container .right-content .text .contact .contact-type i {
+  color: var(--color-secondary);
+}
+#call-to-action .container .right-content .text .contact .contact-type h6 {
+  margin: 0;
+  color: var(--color-primary);
+}
+#call-to-action .container .right-content .text .contact .contact-information {
+  margin-left: 1.5em;
+}
