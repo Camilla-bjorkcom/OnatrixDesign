@@ -510,15 +510,14 @@ footer .container .theme {
   width: fit-content;
   margin: 0 auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   #our-projects .projects {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1920px) {
   #our-projects .projects {
-    display: flex;
-    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 #our-projects .projects .card-project {
