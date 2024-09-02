@@ -573,9 +573,25 @@ footer .container .theme {
   padding: 80px 0px 80px 0px;
 }
 #partners .container .partners {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  #partners .container .partners {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1440px) {
+  #partners .container .partners {
+    display: flex;
+    gap: 5rem;
+  }
 }
 
 #about-header {
