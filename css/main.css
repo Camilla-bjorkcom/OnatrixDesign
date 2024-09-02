@@ -566,6 +566,7 @@ footer .container .theme {
   font-size: 45px;
   margin-right: 40px;
   display: none;
+  transition: display 300ms ease-out;
 }
 
 #partners .container {
