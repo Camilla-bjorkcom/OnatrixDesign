@@ -304,8 +304,12 @@ footer .container .theme {
   flex-direction: column;
 }
 #our-services .container .headline h2 {
-  width: 50%;
   text-align: center;
+}
+@media (min-width: 768px) {
+  #our-services .container .headline h2 {
+    width: 50%;
+  }
 }
 #our-services .container .grid-services {
   display: grid;

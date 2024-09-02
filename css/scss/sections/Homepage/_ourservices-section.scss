@@ -10,9 +10,12 @@
             align-items: center;
             flex-direction: column;
 
-            h2 {
-                width: 50%;
+            h2 {     
                 text-align: center;
+
+                @include tablet {
+                    width: 50%;
+                }
             }
         }
 
