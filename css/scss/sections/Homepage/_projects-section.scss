@@ -1,5 +1,12 @@
 #our-projects {
-    margin-top: 500px;
+    margin-top: 200px;
+
+    @include tablet {
+        margin-top: 300px;
+    }
+    @include desktop {
+        margin-top: 550px;
+    }
     .container {
         .headline {
             h2 {
@@ -8,12 +15,30 @@
         }
     }
     .projects {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: fit-content;
+        margin: 0 auto;
+       
+      
+
+        @include tablet {
+            grid-template-columns: 1fr 1fr;
+          
+        }
+        @include desktop {
+           display: flex;
+           gap: 0;
+            
+        }
 
         .card-project {
             position:relative;
-            
+            width: fit-content;
+            margin: 0 auto;
+
+
            .heading {
             background-color: var(--color-primary-light-transparent);
             position: absolute;
