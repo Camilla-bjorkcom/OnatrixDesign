@@ -527,19 +527,45 @@ footer .container .theme {
   width: fit-content;
   margin: 0 auto;
 }
+#our-projects .projects .card-project:hover .heading {
+  background-color: var(--color-primary);
+  height: 130px;
+}
+#our-projects .projects .card-project:hover .heading .text h5 {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+#our-projects .projects .card-project:hover .heading .angle {
+  display: block;
+}
 #our-projects .projects .card-project .heading {
   background-color: var(--color-primary-light-transparent);
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 20px;
+  height: 95px;
+  transition: height 300ms ease-out, background-color 300ms ease-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#our-projects .projects .card-project .heading h5 {
+#our-projects .projects .card-project .heading .text {
+  padding: 10px;
+}
+#our-projects .projects .card-project .heading .text h5 {
   color: var(--color-light);
   font-weight: 400;
+  transition: color 300ms ease-out;
 }
-#our-projects .projects .card-project .heading p {
+#our-projects .projects .card-project .heading .text p {
   color: var(--color-light);
+}
+#our-projects .projects .card-project .heading .angle {
+  color: var(--color-light);
+  font-size: 45px;
+  margin-right: 40px;
+  display: none;
 }
 
 #partners .container {
