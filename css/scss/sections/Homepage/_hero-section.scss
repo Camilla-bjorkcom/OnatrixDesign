@@ -54,7 +54,7 @@
             padding-top: 70px;
         }
 
-        .hero-content {
+        .content {
             gap: 0.5rem;
             margin-top: 20px;
             width: fit-content;
@@ -77,7 +77,7 @@
             }
 
 
-            .headline {
+            h1 {
                 margin: 0;
                 width: 90%;
                 font-weight: 700;
@@ -88,11 +88,11 @@
                 }
             }
 
-            .ingress {
+            .text {
                 width: 70%;
             }
 
-            .button-container {
+            .content-container {
                 width: fit-content;
                 
             }

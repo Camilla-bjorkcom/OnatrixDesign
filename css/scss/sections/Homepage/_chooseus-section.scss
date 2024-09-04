@@ -1,6 +1,7 @@
 #why-choose-us {
     .background-img {
         width: 100%;
+
         img {
             width: 100%;
             position: absolute;
@@ -8,28 +9,27 @@
             top: 72px;
         }
     }
+
     .container {
         position: relative;
         padding: 100px 0px 0px 0px;
-        
+
         .headline {
             font-weight: 700;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 10px;
-            
-            .primary {
+            margin-bottom: 1rem;
+
+            h2 {
+                text-align: center;
                 margin: 0;
-                text-align: center;
             }
-            .secondary {
-                color: var(--color-secondary);
-                text-align: center;
-            }
+    
 
             @include tablet {
-                margin: 0 auto;
+                margin: 1rem auto;
             }
         }
 
@@ -37,19 +37,23 @@
             width: 50%;
             margin: 0 auto;
             text-align: center;
-           .text {
-            margin-bottom: 2rem;
-           }
-           .button {
-            margin-bottom: 3rem;
-           }    
+
+            .text {
+                margin-bottom: 2rem;
+            }
+
+            .content-container {
+                margin-bottom: 3rem;
+            }
         }
+
         .image-container {
             width: 100%;
+
             img {
                 width: 100%;
-             margin: 0 auto;
+                margin: 0 auto;
             }
-            }
+        }
     }
 }
